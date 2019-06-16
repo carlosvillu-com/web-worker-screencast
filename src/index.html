@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>blah</title>
+    <style>
+      .container {
+        display: flex;
+      }
+
+      .results {
+        border: 1px solid;
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 100%;
+      }
+
+      .start {
+        font-size:20px;
+      }
+
+      .number {
+        padding: 5px;
+        margin: 4px;
+        font-size: 20px;
+      }
+
+      .text {
+        width: 50%;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit vel vulputate, quis ac hendrerit blandit venenatis sociis aptent neque, augue inceptos ut habitant class sociosqu vestibulum rutrum. Ridiculus dictumst egestas natoque platea venenatis erat enim bibendum, sociis eros phasellus ultrices habitasse litora blandit porttitor, tortor diam ornare sollicitudin curae dis himenaeos. Nec parturient quis rutrum aptent purus cursus nostra, convallis platea elementum vivamus accumsan lectus in tempus, pretium id hac iaculis condimentum sociosqu ridiculus, suspendisse ultrices senectus quisque scelerisque porttitor.
+
+Magnis venenatis primis rhoncus sagittis mauris phasellus integer pharetra suscipit laoreet maecenas per tristique, penatibus enim bibendum orci hendrerit himenaeos dictum vivamus mi sed leo nulla. Nisl fringilla arcu lobortis felis cursus ultrices, conubia potenti massa id fusce maecenas, donec habitasse congue magna porttitor. Venenatis iaculis primis nascetur leo at convallis, sed mattis eros pellentesque vulputate, curabitur nam integer porta etiam.
+      </div>
+      <div class="results">
+        <h1>Número de fibonacci</h1>
+        <input type="number" class="number" placeholder="Número para calcular"/>
+        <button class="start">Start</button>
+        <input class="range" type="range" min="0" max="100" />
+        <span class="numberrange"></span>
+        <ul class="list"></ul>
+      </div>
+    </div>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
